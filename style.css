@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    padding: 0px 17% 0px;
+    height: 5vh;
+}
+header ul li a :hover{
+    color: orangered;
+}
+.btn1{
+    background-color: rgb(240, 166, 166);
+    border-radius:20px;
+    border: none;
+    padding: 8px;
+    color: sienna;
+    position: relative;
+    left: 20px;
+}
+.masthead{
+    position: relative;
+    top: 25px;
+    background-color: rgb(43, 84, 197);
+  }
+  .masthead img{
+    height: 80vh;
+    width: 100%;
+  }
+.content{
+    position: relative;
+    top: 50px;
+    font-size: larger;
+    font-weight: 600;
+}
+.btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: orangered;
+    border-radius:10%;
+    text-decoration: none;
+ }
+.Service{
+    background: rgb(176, 240, 176); 
+    height:80vh;
+}
+.Order{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    height: 46vh;
+    width: 120%;
+    border-radius:10%;
+}
+.Shipped{
+    position: relative;
+    top: 0px;
+    height: 46vh;
+    width: 120%;
+    left: 120px;
+    border-radius:10%;
+}
+.Delivered{
+    position: relative;
+    top: 0px;
+    left: 190px;
+    border-radius:10%;
+    height: 46vh;
+    width: 120%;
+}
+.test h1{
+   font-size: 50px;
+   padding: 40px;
+}
